@@ -22,5 +22,6 @@ brew install --cask skj-apps/tap/mistbar
 | `dockapp` | Dock replacement with window previews, a switcher, snapping, and layouts — [dockapp.app](https://dockapp.app/) |
 | `gesturecraft` | Custom trackpad, mouse, and keyboard gestures mapped to actions — [gesturecraft.app](https://gesturecraft.app/) |
 | `mistbar` | Menu-bar declutter tool with clipboard, mail, notes, and AI-usage tracking — [mistbar.app](https://mistbar.app/) |
+| `trillmark` | Per-app notification sounds and a colored, labeled screen flash — [trillmark.app](https://trillmark.app/) |
 
 All apps auto-update via Sparkle after install.
