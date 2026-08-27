@@ -2,8 +2,8 @@ cask "findercraft" do
   version "1.0.0"
   sha256 "17efd3578062dfe38ff4f655043ed55955249d656e64452bbf6e2dafbc9558d7"
 
-  url "https://dl.findercraft.app/FinderCraft-#{version}.dmg",
-      verified: "dl.findercraft.app/"
+  url "https://findercraft.app/FinderCraft-#{version}.dmg",
+      verified: "findercraft.app/"
   name "FinderCraft"
   desc "Move, organize, rename, compare, and recover files without leaving Finder"
   homepage "https://findercraft.app/"
