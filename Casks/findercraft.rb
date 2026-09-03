@@ -1,6 +1,6 @@
 cask "findercraft" do
-  version "1.0.2"
-  sha256 "619be00ad260620245de3528884ec84e672b6bc3672fa761db6854347fb9c0a7"
+  version "1.0.3"
+  sha256 "e43c16bd839d96e1e500808eaa5af031c4635f30ebbb4bb8a2d20056a0a9d79d"
 
   url "https://findercraft.app/FinderCraft-#{version}.dmg",
       verified: "findercraft.app/"
@@ -20,6 +20,7 @@ cask "findercraft" do
 
   zap trash: [
     "~/Library/Caches/com.skj.findercraft",
+    "~/Library/Group Containers/856K46LYFS.group.com.skj.findercraft",
     "~/Library/HTTPStorages/com.skj.findercraft",
     "~/Library/HTTPStorages/com.skj.findercraft.binarycookies",
     "~/Library/Preferences/com.skj.findercraft.plist",
