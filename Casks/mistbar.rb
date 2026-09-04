@@ -1,6 +1,6 @@
 cask "mistbar" do
-  version "1.0.3"
-  sha256 "785b7191131c2470fa5c4cf039e0b6291f22992b1297e2068f862cdd7f8a62f3"
+  version "1.0.4"
+  sha256 "b5c35af1d60f2a7810243c5ccf28eb9f53f60f051babc6c6b2ced96175766de1"
 
   url "https://dl.mistbar.app/MistBar-#{version}.dmg",
       verified: "dl.mistbar.app/"
@@ -26,3 +26,4 @@ cask "mistbar" do
     "~/Library/Saved Application State/com.skj.MistBar.savedState",
   ]
 end
+
