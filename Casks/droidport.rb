@@ -1,6 +1,6 @@
 cask "droidport" do
   version "1.3"
-  sha256 "PLACEHOLDER_DMG_SHA256"
+  sha256 "7dac6a63d7cbc8974596707b2892d128090f7c2b6c1d54919f59a1703653e1be"
 
   url "https://droidport.app/DroidPort-#{version}.dmg",
       verified: "droidport.app/"
