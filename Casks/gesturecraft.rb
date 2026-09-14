@@ -1,6 +1,6 @@
 cask "gesturecraft" do
-  version "1.0.5"
-  sha256 "223fbdd9a88f5008e13f35404d8f2192b274140ddc5efa643adb9007fb5aab1f"
+  version "1.0.6"
+  sha256 "af7b947ef90f1da356fcc0c842837926f08ebcff0bb40498511ee4b85b75b261"
 
   url "https://dl.gesturecraft.app/GestureCraft-#{version}.dmg",
       verified: "dl.gesturecraft.app/"
