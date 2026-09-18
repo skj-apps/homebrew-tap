@@ -20,7 +20,7 @@ cask "trillmark" do
 
   zap trash: [
     "~/Library/Application Support/TrillMark",
-    "~/Library/Configs/com.skj.trillmark",
+    "~/Library/Caches/com.skj.trillmark",
     "~/Library/HTTPStorages/com.skj.trillmark",
     "~/Library/Preferences/com.skj.trillmark.plist",
     "~/Library/Saved Application State/com.skj.trillmark.savedState",
