@@ -1,6 +1,6 @@
 cask "trillmark" do
-  version "1.0.8"
-  sha256 "7ff4044115b923bb3e2111aea1c9e7d098aecda4af6c3fc433c91043ab02b98b"
+  version "1.0.9"
+  sha256 "1b44efeb7654ff1779db9e629e1db46c430308c901aeb0e4386c74f0282cd753"
 
   url "https://dl.trillmark.app/TrillMark-#{version}.dmg",
       verified: "dl.trillmark.app/"
@@ -20,7 +20,7 @@ cask "trillmark" do
 
   zap trash: [
     "~/Library/Application Support/TrillMark",
-    "~/Library/Caches/com.skj.trillmark",
+    "~/Library/Configs/com.skj.trillmark",
     "~/Library/HTTPStorages/com.skj.trillmark",
     "~/Library/Preferences/com.skj.trillmark.plist",
     "~/Library/Saved Application State/com.skj.trillmark.savedState",
