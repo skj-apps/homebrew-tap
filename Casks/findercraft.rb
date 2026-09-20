@@ -1,6 +1,6 @@
 cask "findercraft" do
-  version "1.0.5"
-  sha256 "dd26c169d23ad62a1da02e0af3b42e6f54176dbf0add7066d7bb64b3ad6fbf4e"
+  version "1.0.6"
+  sha256 "c1eaa147a81d8d3ff6035b37440a319878e2b61b885526088da8827df44fb028"
 
   url "https://findercraft.app/FinderCraft-#{version}.dmg",
       verified: "findercraft.app/"
