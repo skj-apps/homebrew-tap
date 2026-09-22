@@ -1,6 +1,6 @@
 cask "dockapp" do
-  version "1.0.8"
-  sha256 "add7d99c10091fe413eb5bb74efd29d84f96c2357f1241c9e5c05a0dcb8f4c8f"
+  version "1.0.9"
+  sha256 "19c944721e076e421f3f30e0123cf2ea744f34a42ef5752c466203b48496176c"
 
   url "https://dl.dockapp.app/DockApp-#{version}.dmg",
       verified: "dl.dockapp.app/"
