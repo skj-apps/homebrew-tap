@@ -1,6 +1,6 @@
 cask "mistbar" do
-  version "1.0.5"
-  sha256 "b209ff0e3165f1ec8535a3134448fe266ca2ebbb1d828769136a8116b246db7a"
+  version "1.0.6"
+  sha256 "db5146034eba71f8d5ca00a92e7d4dc5d5001ca518a0b770d4e67a39ed37b547"
 
   url "https://dl.mistbar.app/MistBar-#{version}.dmg",
       verified: "dl.mistbar.app/"
@@ -14,7 +14,7 @@ cask "mistbar" do
   end
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on macos: ">= :golden_gate"
 
   app "MistBar.app"
 
