@@ -1,6 +1,6 @@
 cask "uninstallguard" do
-  version "1.2.1"
-  sha256 "ec7b75026146da16794d46f475ce0a04c0d22ed4b72fbe1322e06eecd672ab97"
+  version "1.2.2"
+  sha256 "c05d8157e84457f8104d30f97dac0346c3284335f50a7a5b2ee597c0eaa8a1a2"
 
   url "https://uninstallguard.app/UninstallGuard-#{version}.dmg",
       verified: "uninstallguard.app/"
