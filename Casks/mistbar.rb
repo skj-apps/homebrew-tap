@@ -1,6 +1,6 @@
 cask "mistbar" do
-  version "1.0.7"
-  sha256 "9dbe9b53297771e258c27f741f7dedf6882d97401bf5f03e09855ba57230894b"
+  version "1.0.8"
+  sha256 "ada6c07180b6ff6e4a7e99752e690fa2e63ac29e3a26b338f3576422ede0ab51"
 
   url "https://dl.mistbar.app/MistBar-#{version}.dmg"
   name "MistBar"
