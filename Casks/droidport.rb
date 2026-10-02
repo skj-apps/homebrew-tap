@@ -1,6 +1,6 @@
 cask "droidport" do
-  version "1.5.1"
-  sha256 "952d5acb96c38816e6ae4caf29f5e122b908e3ee04829d2d708ec2f5fd586816"
+  version "1.5.2"
+  sha256 "ee2eb32baae6bc6f7e784ce41806ca8040d1a135db95fab7721a1778e52d67d1"
 
   url "https://droidport.app/DroidPort-#{version}.dmg",
       verified: "droidport.app/"
