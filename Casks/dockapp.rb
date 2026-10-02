@@ -1,9 +1,8 @@
 cask "dockapp" do
-  version "1.0.13"
-  sha256 "f6e12834f92c623908539f1e219d969c7682271c7ea02d15dbb977c2201eecb9"
+  version "1.0.14"
+  sha256 "d14f6a4411f786a3fe297c6cf029405373278559151de3311d3ca50fcada9ec5"
 
-  url "https://dl.dockapp.app/DockApp-#{version}.dmg",
-      verified: "dl.dockapp.app/"
+  url "https://dl.dockapp.app/DockApp-#{version}.dmg"
   name "DockApp"
   desc "Dock replacement with window previews, a switcher, snapping, and layouts"
   homepage "https://dockapp.app/"
