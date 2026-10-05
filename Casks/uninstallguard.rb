@@ -2,8 +2,7 @@ cask "uninstallguard" do
   version "1.2.9"
   sha256 "f32d51c46ec89650e4233b2473906c79042a9ba219bc1f830f8db3f4db60b723"
 
-  url "https://uninstallguard.app/UninstallGuard-#{version}.dmg",
-      verified: "uninstallguard.app/"
+  url "https://uninstallguard.app/UninstallGuard-#{version}.dmg"
   name "UninstallGuard"
   desc "Careful Mac uninstaller that finds an app's leftovers and moves them to the Trash"
   homepage "https://uninstallguard.app/"
