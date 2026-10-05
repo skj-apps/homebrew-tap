@@ -1,6 +1,6 @@
 cask "findercraft" do
-  version "1.0.10"
-  sha256 "554e8a3631571ce60750da803e7372ab7e4ac14395661c3a9ad93fbaac5b04dd"
+  version "1.0.11"
+  sha256 "f3bb4fb74157b396b1016382551d4515e1db720f18f2648eb1af17c59e0edf36"
 
   url "https://findercraft.app/FinderCraft-#{version}.dmg",
       verified: "findercraft.app/"
@@ -14,7 +14,7 @@ cask "findercraft" do
   end
 
   auto_updates true
-  depends_on macos: :sequoia
+  depends_on macos: :sonoma
 
   app "FinderCraft.app"
 
