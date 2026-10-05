@@ -1,6 +1,6 @@
 cask "mistbar" do
-  version "1.0.15"
-  sha256 "4809d9c1c38e1054aa8214157f5c9b7f0356d0e8681d1314fcbe31b76cff8201"
+  version "1.0.16"
+  sha256 "70ea59b4dca396c66e9e561dfeab68e116b40bab5ba33030ddac2fbd6feb3b79"
 
   url "https://dl.mistbar.app/MistBar-#{version}.dmg"
   name "MistBar"
@@ -13,7 +13,7 @@ cask "mistbar" do
   end
 
   auto_updates true
-  depends_on macos: :golden_gate
+  depends_on macos: :sonoma
 
   app "MistBar.app"
 
