@@ -1,6 +1,6 @@
 cask "gesturecraft" do
-  version "1.0.17"
-  sha256 "ba1fc53fb9c7b2da74257ab24f1f5c7dd3267bb7c111401351614a055d15a532"
+  version "1.0.18"
+  sha256 "5c7eaf74fe1bfa247460dbacee757ca9e436233ec5ced3c17f0602763af7fe59"
 
   url "https://dl.gesturecraft.app/GestureCraft-#{version}.dmg",
       verified: "dl.gesturecraft.app/"
@@ -14,7 +14,8 @@ cask "gesturecraft" do
   end
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "GestureCraft.app"
 
@@ -26,3 +27,4 @@ cask "gesturecraft" do
     "~/Library/Saved Application State/com.skj.gesturecraft.savedState",
   ]
 end
+
