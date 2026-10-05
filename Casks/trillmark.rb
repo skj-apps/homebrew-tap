@@ -1,6 +1,6 @@
 cask "trillmark" do
-  version "1.0.15"
-  sha256 "90a13cd1b572e58cce87188a6142f538cf3dc5b75eaabca33796ef17154f262b"
+  version "1.0.16"
+  sha256 "164a5c6e06ce73a0ea919b12c89956d3d96253f904cfe46d6b57e0c6ebf7fb97"
 
   url "https://dl.trillmark.app/TrillMark-#{version}.dmg",
       verified: "dl.trillmark.app/"
@@ -14,7 +14,6 @@ cask "trillmark" do
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "TrillMark.app"
