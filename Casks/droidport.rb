@@ -2,8 +2,7 @@ cask "droidport" do
   version "1.5.2"
   sha256 "ee2eb32baae6bc6f7e784ce41806ca8040d1a135db95fab7721a1778e52d67d1"
 
-  url "https://droidport.app/DroidPort-#{version}.dmg",
-      verified: "droidport.app/"
+  url "https://droidport.app/DroidPort-#{version}.dmg"
   name "DroidPort"
   desc "Link your Android phone to your Mac: texts, notifications, calls, files, clipboard"
   homepage "https://droidport.app/"
