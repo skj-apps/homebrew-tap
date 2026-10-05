@@ -1,6 +1,6 @@
 cask "dockapp" do
-  version "1.0.14"
-  sha256 "d14f6a4411f786a3fe297c6cf029405373278559151de3311d3ca50fcada9ec5"
+  version "1.0.15"
+  sha256 "ad1e4e708c2c09d344a2dc03c559e2c204f0b54f373f0a04a8173453c0478ddf"
 
   url "https://dl.dockapp.app/DockApp-#{version}.dmg"
   name "DockApp"
@@ -13,7 +13,7 @@ cask "dockapp" do
   end
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on macos: :sonoma
 
   app "DockApp.app"
 
