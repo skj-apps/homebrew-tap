@@ -27,4 +27,3 @@ cask "gesturecraft" do
     "~/Library/Saved Application State/com.skj.gesturecraft.savedState",
   ]
 end
-
