@@ -1,6 +1,6 @@
 cask "mistbar" do
-  version "1.0.16"
-  sha256 "70ea59b4dca396c66e9e561dfeab68e116b40bab5ba33030ddac2fbd6feb3b79"
+  version "1.0.17"
+  sha256 "2ff9ad096d7ac18467b6f9fcf5c69eed881ce328903b7911176c77fbabdd4019"
 
   url "https://dl.mistbar.app/MistBar-#{version}.dmg"
   name "MistBar"
@@ -9,11 +9,10 @@ cask "mistbar" do
 
   livecheck do
     url "https://mistbar.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "MistBar.app"
