@@ -1,6 +1,6 @@
 cask "gesturecraft" do
-  version "1.0.18"
-  sha256 "5c7eaf74fe1bfa247460dbacee757ca9e436233ec5ced3c17f0602763af7fe59"
+  version "1.0.19"
+  sha256 "8bd222b84d893cf7026f3686e6c7350c19bb6ad47b67cb58dcebcdf7edaf9631"
 
   url "https://dl.gesturecraft.app/GestureCraft-#{version}.dmg"
   name "GestureCraft"
@@ -9,11 +9,10 @@ cask "gesturecraft" do
 
   livecheck do
     url "https://dl.gesturecraft.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "GestureCraft.app"
