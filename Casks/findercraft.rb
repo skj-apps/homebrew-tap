@@ -1,6 +1,6 @@
 cask "findercraft" do
-  version "1.0.11"
-  sha256 "f3bb4fb74157b396b1016382551d4515e1db720f18f2648eb1af17c59e0edf36"
+  version "1.0.12"
+  sha256 "afb806150d19946aee86edede607404ba149b6881e9e9ec1842c539587ac57e7"
 
   url "https://findercraft.app/FinderCraft-#{version}.dmg"
   name "FinderCraft"
@@ -9,11 +9,10 @@ cask "findercraft" do
 
   livecheck do
     url "https://findercraft.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "FinderCraft.app"
