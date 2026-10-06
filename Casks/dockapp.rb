@@ -1,6 +1,6 @@
 cask "dockapp" do
-  version "1.0.15"
-  sha256 "ad1e4e708c2c09d344a2dc03c559e2c204f0b54f373f0a04a8173453c0478ddf"
+  version "1.0.16"
+  sha256 "05a419dcfa110edf01478de7679c62757625bf653f8f7d2cbcb14799a6ebb8ff"
 
   url "https://dl.dockapp.app/DockApp-#{version}.dmg"
   name "DockApp"
@@ -9,11 +9,10 @@ cask "dockapp" do
 
   livecheck do
     url "https://dl.dockapp.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "DockApp.app"
