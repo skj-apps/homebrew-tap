@@ -1,6 +1,6 @@
 cask "tuneright" do
-  version "1.0.2"
-  sha256 "5432725a07afc51d80b0c83a686191ddd4918ae2184860719bd9d48d06a369bb"
+  version "1.0.3"
+  sha256 "45a5a9a5dfac9cd2e48dd88769e1fd18fd0e3fadba9d8d5ef44eb27c673a18d9"
 
   url "https://dl.tuneright.app/TuneRight-#{version}.dmg"
   name "TuneRight"
