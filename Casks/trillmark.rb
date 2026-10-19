@@ -1,6 +1,6 @@
 cask "trillmark" do
-  version "1.0.16"
-  sha256 "164a5c6e06ce73a0ea919b12c89956d3d96253f904cfe46d6b57e0c6ebf7fb97"
+  version "1.0.17"
+  sha256 "66815916e8794ed8a339b781d4e0c1001668f8c4f530a0fd1cdf4712d3abaf36"
 
   url "https://dl.trillmark.app/TrillMark-#{version}.dmg"
   name "TrillMark"
