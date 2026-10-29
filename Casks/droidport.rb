@@ -28,4 +28,3 @@ cask "droidport" do
     "~/Library/Saved Application State/com.skj.droidport.savedState",
   ]
 end
-
