@@ -1,6 +1,6 @@
 cask "droidport" do
-  version "1.5.3"
-  sha256 "fbab08af01ade768beb58400154e319675ee2ee75852b3d151e7f5fd452a3b71"
+  version "1.5.4"
+  sha256 "fde40d4012a969597d66107bc34b4ff452fecbcf7b87fd064328a601bb4a2e5c"
 
   url "https://droidport.app/DroidPort-#{version}.dmg"
   name "DroidPort"
@@ -28,3 +28,4 @@ cask "droidport" do
     "~/Library/Saved Application State/com.skj.droidport.savedState",
   ]
 end
+
