@@ -1,6 +1,6 @@
 cask "rangetrace" do
-  version "1.0.7"
-  sha256 "eb657b9a4df99a5cfc01a4c9366d7c62ffcf303309f0f2134182f81358832739"
+  version "1.1.0"
+  sha256 "88228af20e0f64f175c75d8183d4e0743ee751fe909d8e356c081b960deda472"
 
   url "https://rangetrace.app/releases/RangeTrace-#{version}.dmg"
   name "RangeTrace"
