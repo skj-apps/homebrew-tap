@@ -1,6 +1,6 @@
 cask "uninstallguard" do
-  version "1.0.11"
-  sha256 "a36fd453e30153f165d8a19ce7f0b108407ae3b21c4ef2ca6dac88339743dd58"
+  version "1.1.0"
+  sha256 "d6c6f301ac7c0a7dae113336eeca3058f902a1beb3dce93faf02f8dfa30a6f5d"
 
   url "https://uninstallguard.app/UninstallGuard-#{version}.dmg"
   name "UninstallGuard"
@@ -9,7 +9,7 @@ cask "uninstallguard" do
 
   livecheck do
     url "https://uninstallguard.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
