@@ -1,6 +1,6 @@
 cask "droidport" do
-  version "1.5.4"
-  sha256 "fde40d4012a969597d66107bc34b4ff452fecbcf7b87fd064328a601bb4a2e5c"
+  version "1.5.5"
+  sha256 "ee96cb8033c7ca36e94b8f4ebb770705b1f56ef599c70a8b0fd82c5d86205520"
 
   url "https://droidport.app/DroidPort-#{version}.dmg"
   name "DroidPort"
@@ -9,7 +9,7 @@ cask "droidport" do
 
   livecheck do
     url "https://droidport.app/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
